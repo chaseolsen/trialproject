@@ -1,0 +1,15 @@
+// nodemon server (runs server and restarts when change is detected)
+// webpack --w (watches file changes to compile)
+const express = require('express');
+const bodyParser = require('body-parser');
+const cors = require('cors');
+
+// Use express for server
+var app = express();
+
+// Didplay src dir
+app.use(express.static(__dirname + './../src'));
+
+
+// Run server on Port 3000
+app.listen(3000, () => console.log('listening on 3000'));
