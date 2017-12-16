@@ -27,6 +27,8 @@ node server
 ```
 Done! Then navigate to Localhost:3000
 
+## Extra Details About Development Environment
+
 I also used Webpack to transpile all of my js files into client.min.js (Any changes to .js files will automatically run webpack)
 ```
 webpack --w
