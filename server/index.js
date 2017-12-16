@@ -2,7 +2,6 @@
 // webpack --w (watches file changes to compile)
 const express = require('express');
 const bodyParser = require('body-parser');
-const cors = require('cors');
 
 // Brings in mainController to access object that returns data
 const controller = require('./controllers/mainController.js');
