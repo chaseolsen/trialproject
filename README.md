@@ -12,6 +12,16 @@
 
 Since I used React, I have created an Express server to server the page and handle get requests for the posts. You'll need to run the Express server so the app can retreive post data from the server.
 
+Here is basic file structure of project
+
+    ├── node_modules            # Will be generated when running 'npm install'
+    ├── server                  # Contains index.js for Express server and controllers for getting post data.
+    ├── src                     # Source files, Images, JS, Styles, index.html, client.min.js, etc.
+    ├── .gitignore              # To prevent pushing big files such as Node_Modules
+    ├── package.json            # Contains Dependency List
+    ├── webpack.config.js       # Webpack Configuration File
+    └── README.md
+
 
 ## How to Run Everything
 (be sure node is installed)
