@@ -10,7 +10,7 @@
 
 ## Project Overview
 
-Since I used React, I have created an Express server to server the page and handle get requests for the posts. You'll need to run the Express server so project can retreive post data, etc.
+Since I used React, I have created an Express server to server the page and handle get requests for the posts. You'll need to run the Express server so the app can retreive post data from the server.
 
 
 ## How to Run Everything
