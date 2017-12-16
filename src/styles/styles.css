@@ -131,20 +131,6 @@ nav a {
 
 /* ==================== Footer Content ==================== */
 
-.load-more-btn {
-  margin: auto;
-  text-align: center;
-  height: 75px;
-  width: 300px;
-  background-color: #31A7CC;
-  color: white;
-  margin-top: 100px;
-}
-
-.load-more-btn h4 {
-  padding-top: 28px;
-}
-
 .hidebtn {
   display: none;
 }
@@ -158,4 +144,20 @@ nav a {
 
 .bottom-disclaimer {
   padding: 30px 0px 30px 0px
+}
+
+
+.button-holder {
+  margin:auto;
+  text-align: center;
+}
+
+.button-load-more {
+  background-color: #31A7CC;
+  margin: auto;
+  margin-top: 20px;
+  font-size: 18px;
+  padding: 30px 40px 30px 40px;
+  color: white !important;
+  border: none;
 }

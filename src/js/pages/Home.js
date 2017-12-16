@@ -60,8 +60,9 @@ export default class Layout extends React.Component {
 
 
         {/* Button to add more data */}
-        <div onClick={this.handleMoreContent.bind(this)} className={"load-more-btn " + this.state.hidebtn}>
-          <h4>LOAD MORE STORIES</h4>
+
+        <div className="button-holder">
+          <button onClick={this.handleMoreContent.bind(this)} className={"button-load-more " + this.state.hidebtn}>LOAD MORE STORIES</button>
         </div>
 
         {/* Loads Footer Component */}
