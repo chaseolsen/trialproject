@@ -1,3 +1,6 @@
+/* ==================== Navbar Styles ==================== */
+
+/* Modified the navbar to break earlier */
 @media (max-width: 994px) {
     .navbar-header {
         float: none;
@@ -52,25 +55,35 @@
 font-weight: bold;
 }
 
-
 nav a {
   color: #6E7470;
 }
 
-.container-top {
-  margin-top: 50px;
+/* The dashes in navbar when page is in mobile view */
+.hamburger-bg {
+  background-color: #6E7470;
 }
 
 
-.post-container {
-  text-align: center;
-  /* margin: auto; */
-  /* margin: 0px 10px 0px 10px; */
+/* ==================== Main Content ==================== */
+/* overall containing of home */
+.background-main {
+  background-color: #F2F1EF;
+}
 
-   /* width: 340px; */
-  /* margin-top: 50px; */
-  /* padding: 0px 10px 0px 10px; */
-  /* background-color: white; */
+/* container holding every post */
+.container-main {
+  margin-top: 50px;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* container holding each individual post */
+.post-container {
+  align-self: flex-start;
+  text-align: center;
+  margin: 0 20px 0 20px;
 }
 
 .post-content {
@@ -83,10 +96,6 @@ nav a {
 .post-image {
   padding-top: 50px;
   width: 340px;
-}
-
-.grey-bg {
-  background-color: #6E7470;
 }
 
 .post-title {
@@ -104,6 +113,7 @@ nav a {
 }
 
 .post-link {
+  text-align: left;
   color: #31A7CC;
   text-decoration: none;
 }
@@ -113,9 +123,9 @@ nav a {
   font-weight: bold;
 }
 
-.background-main {
-  background-color: #F2F1EF;
-}
+
+
+/* ==================== Footer Content ==================== */
 
 .load-more-btn {
   margin: auto;
@@ -129,6 +139,10 @@ nav a {
 
 .load-more-btn h4 {
   padding-top: 28px;
+}
+
+.hidebtn {
+  display: none;
 }
 
 .bottom-divider {

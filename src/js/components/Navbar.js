@@ -2,7 +2,6 @@ import React from 'react';
 
 export default class Navbar extends React.Component {
 
-
   render() {
     return (
       <div className="navContainer">
@@ -11,9 +10,9 @@ export default class Navbar extends React.Component {
             <div className="navbar-header">
               <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar3">
                 <span className="sr-only">Toggle navigation</span>
-                <span className="icon-bar grey-bg" />
-                <span className="icon-bar grey-bg" />
-                <span className="icon-bar grey-bg" />
+                <span className="icon-bar hamburger-bg" />
+                <span className="icon-bar hamburger-bg" />
+                <span className="icon-bar hamburger-bg" />
               </button>
               <a className="navbar-brand" href="#">SITE TITLE</a>
             </div>
