@@ -1,12 +1,17 @@
 # Tenth Muse Design Trial Project
 
-Technologies used, ReactJS, Express, Webpack, Babel
+## Technologies Used
+
+* ReactJS
+* Express (to create node server)
+* Axios (to get post data using ES6 promise)
+* Webpack (to transpile ES6 and all js files into client.min.js)
+* Babel (to handle ES6 code with webpack)
 
 ## Project Overview
 
-Since I used React, I have created an Express server to server the page and handle get requests for the posts.
+Since I used React, I have created an Express server to server the page and handle get requests for the posts. You'll need to run the Express server so project can retreive post data, etc.
 
-Running the node server (Any changes to folder or webpack running will automatically restart node server)
 
 ## How to Run Everything
 (be sure node is installed)
