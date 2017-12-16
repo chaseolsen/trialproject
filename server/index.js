@@ -9,7 +9,7 @@ const controller = require('./controllers/mainController.js');
 // Use express for server
 var app = express();
 
-// API get requests
+// API endpoints
 app.get('/posts', controller.posts)
 app.get('/moreposts', controller.moreposts)
 
