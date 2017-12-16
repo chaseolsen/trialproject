@@ -36,39 +36,39 @@ module.exports = {
       }
     ]);
   },
-  moreposts: function(req, res, next){
+  moreposts: function(req, res, next) {
     res.send([
-          {
-            title: 'Hey Look Another Post',
-            contents: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
-            image: '../../images/Layer5.png',
-            link: '#'
-          }, {
-            title: 'Yet Another One',
-            contents: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
-            image: '../../images/Layer1.png',
-            link: '#'
-          }, {
-            title: 'To Be Or Not To Be',
-            contents: 'To be, or not to be: that is the question: Whether tis nobler in the mind to suffer The slings and arrows of outrageous fortune',
-            image: '../../images/Layer6.png',
-            link: '#'
-          }, {
-            title: 'ALL CAPS IS ANNOYING',
-            contents: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
-            image: '../../images/Layer4.png',
-            link: '#'
-          }, {
-            title: 'The winter up here is terrible',
-            contents: 'No sunlight, so cold, much polution, very sad.',
-            image: '../../images/Layer3.png',
-            link: '#'
-          }, {
-            title: 'Luke, I am your father.',
-            contents: 'NOOOO!',
-            image: '../../images/Layer2.png',
-            link: '#'
-          }
-        ])
+      {
+        title: 'Hey Look Another Post',
+        contents: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
+        image: '../../images/Layer5.png',
+        link: '#'
+      }, {
+        title: 'Yet Another One',
+        contents: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
+        image: '../../images/Layer1.png',
+        link: '#'
+      }, {
+        title: 'To Be Or Not To Be',
+        contents: 'To be, or not to be: that is the question: Whether tis nobler in the mind to suffer The slings and arrows of outrageous fortune',
+        image: '../../images/Layer6.png',
+        link: '#'
+      }, {
+        title: 'ALL CAPS IS ANNOYING',
+        contents: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
+        image: '../../images/Layer4.png',
+        link: '#'
+      }, {
+        title: 'The winter up here is terrible',
+        contents: 'No sunlight, so cold, much polution, very sad.',
+        image: '../../images/Layer3.png',
+        link: '#'
+      }, {
+        title: 'Luke, I am your father.',
+        contents: 'NOOOO!',
+        image: '../../images/Layer2.png',
+        link: '#'
+      }
+    ])
   }
 }
