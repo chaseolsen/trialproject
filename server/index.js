@@ -4,10 +4,16 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 
+const controller = require('./controllers/mainController.js');
+
 // Use express for server
 var app = express();
 
-// Didplay src dir
+// API get requests
+app.get('/posts', controller.posts)
+app.get('/moreposts', controller.moreposts)
+
+// Display src dir
 app.use(express.static(__dirname + './../src'));
 
 
