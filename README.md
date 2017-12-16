@@ -20,13 +20,17 @@ Since I used React, I have created an Express server to server the page and hand
 ```
 git clone https://github.com/chaseolsen/trialproject.git
 ```
+2. Enter Project
+```
+cd trialproject
+```
 
-2. Install Dependencies
+3. Install Dependencies
 ```
 npm install
 ```
 
-3. Run Node Server
+4. Run Node Server
 ```
 node server
 ```
